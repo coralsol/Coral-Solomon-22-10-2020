@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "654a2619452c3216e7aa3d411147212b",
+    "revision": "4b50c24145c20323110a0c3267550cc8",
     "url": "/Coral-Solomon-22-10-2020/index.html"
   },
   {
-    "revision": "aa4531eb44ac7aa7c401",
+    "revision": "38ddf8ac24fe244e492b",
     "url": "/Coral-Solomon-22-10-2020/static/css/main.44520584.chunk.css"
   },
   {
-    "revision": "6b17303a666409fc8ffd",
-    "url": "/Coral-Solomon-22-10-2020/static/js/2.6fbc056e.chunk.js"
+    "revision": "3b9da8cb70092826b95b",
+    "url": "/Coral-Solomon-22-10-2020/static/js/2.12e58d99.chunk.js"
   },
   {
     "revision": "3c73c585782ac05880c0f89bcfdbba5a",
-    "url": "/Coral-Solomon-22-10-2020/static/js/2.6fbc056e.chunk.js.LICENSE.txt"
+    "url": "/Coral-Solomon-22-10-2020/static/js/2.12e58d99.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aa4531eb44ac7aa7c401",
-    "url": "/Coral-Solomon-22-10-2020/static/js/main.9ec83935.chunk.js"
+    "revision": "38ddf8ac24fe244e492b",
+    "url": "/Coral-Solomon-22-10-2020/static/js/main.0fe45fd9.chunk.js"
   },
   {
     "revision": "f72fd6fac6456811380c",

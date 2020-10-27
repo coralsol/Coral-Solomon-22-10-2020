@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Coral-Solomon-22-10-2020/precache-manifest.10c8c0e74136ca3ae37139d4b4db5db6.js"
+  "/Coral-Solomon-22-10-2020/precache-manifest.a2cc4d873af7db7b60a40b67b10fc4ab.js"
 );
 
 self.addEventListener('message', (event) => {
