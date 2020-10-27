@@ -1,0 +1,14 @@
+
+
+
+@function vw500($px) {
+    @return ($px/500) *100 + vw;
+}
+
+@function vw1024($px) {
+    @return ($px/1024) *100 + vw;
+}
+
+@function vw1920($px) {
+    @return ($px/1920) *100 + vw;
+}

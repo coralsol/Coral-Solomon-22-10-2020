@@ -1,0 +1,29 @@
+.search {
+    height: 9vh;
+    background-color: rgb(46, 46, 41);
+
+    .content-wrap {
+        width: vw500(380);
+        margin: 0 auto;
+
+        * {
+            border-radius: 5px;
+            border:0px;
+            padding: 7px;
+
+        }
+
+        input {
+            flex: 1;
+            margin-right: 10px;
+        }
+
+        button {
+            width: vw500(70);
+            font-size: 16px;
+            background-color:  rgb(131, 133, 128);
+            color: #ffffff;
+
+        }
+    }
+}

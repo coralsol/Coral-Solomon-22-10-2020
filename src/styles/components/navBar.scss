@@ -1,0 +1,106 @@
+.nav-bar {
+  background-color: #2e2e29;
+  height: 50px;
+
+  .link-wrapper {
+    width: vw500(490);
+    margin: 0 auto;
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
+    :first-child {
+      margin-right: 10px;
+    }
+
+    .selected{
+      font-weight: bold;
+    }
+  }
+}
+
+.theme-switch {
+  input[type="checkbox"] {
+    cursor: pointer;
+    position: relative;
+    width: 70px;
+    height: 30px;
+    outline: none;
+    -webkit-appearance: none;
+    background-color: #fce100;
+    transition: 0.5s;
+    border-radius: 20px;
+  }
+  input:checked[type="checkbox"] {
+    background-color: #000000;
+    transition: 0.5s;
+  }
+  input[type="checkbox"]::before {
+    content: "☀️";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+  }
+  input:checked[type="checkbox"]::before {
+    left: 40px;
+    content: "🌜";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #555555;
+  }
+}
+
+
+
+.degrees-switch {
+  input[type="checkbox"] {
+    cursor: pointer;
+    position: relative;
+    width: 70px;
+    height: 30px;
+    outline: none;
+    -webkit-appearance: none;
+    background-color: #8a8a8a;
+    transition: 0.5s;
+    border-radius: 20px;
+  }
+  input:checked[type="checkbox"] {
+    background-color: #000000;
+    transition: 0.5s;
+  }
+  input[type="checkbox"]::before {
+    content: "C°";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border-radius: 50px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.5s;
+  }
+  input:checked[type="checkbox"]::before {
+    left: 40px;
+    content: "F°";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfdfdf;
+  }
+}
