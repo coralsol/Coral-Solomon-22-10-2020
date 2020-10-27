@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useContext } from 'react'
-import { NavLink, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import storageService from '../services/storageService'
 import { WeatherContext } from '../contexts/WeatherContext'
 
@@ -43,8 +43,8 @@ export default function NavBar() {
         <div className="nav-bar flex align-center ">
             <div className="link-wrapper flex align-center space-between">
                 <div>
-                    <NavLink activeClassName="selected" to="/Coral-Solomon-22-10-2020" exact >Home</NavLink>
-                    <NavLink activeClassName="selected" to="/Coral-Solomon-22-10-2020/favorites" exact > Favorites</NavLink>
+                    <Link activeClassName="selected" to="/Coral-Solomon-22-10-2020" exact >Home</Link>
+                    <Link activeClassName="selected" to="/Coral-Solomon-22-10-2020/favorites" exact > Favorites</Link>
 
                 </div>
 
