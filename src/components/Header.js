@@ -40,10 +40,13 @@ export default function Header({ curWeather, goSearch }) {
 
     async function onAddFavorite() {
         setFavorite(!favorite)
-        let favoriteCity = { name: searchValue, data: curWeather }
-        let currentCity = await storageService.get(`favorites`, searchValue)
+        console.log('searchValue',searchValue);
+        console.log('name',name);
+
+        let favoriteCity = { name: name, data: curWeather }
+        let currentCity = await storageService.get(`favorites`, name)
         if (currentCity) {
-            storageService.remove('favorites', searchValue)
+            storageService.remove('favorites', name)
         } else {
             storageService.post('favorites', favoriteCity)
         }
@@ -58,7 +61,7 @@ export default function Header({ curWeather, goSearch }) {
 
 
     async function checkIfFavorite() {
-        let currentCity = await storageService.get(`favorites`, searchValue)
+        let currentCity = await storageService.get(`favorites`, name)
         if (currentCity) {
             setFavorite(true)
         } else {
