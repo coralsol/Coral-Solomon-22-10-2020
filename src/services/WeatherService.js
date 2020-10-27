@@ -11,7 +11,6 @@ export default {
 async function getWeatherOfTheWeek(location) {
     let { data } = await axios.get(`https://dataservice.accuweather.com/locations/v1/cities/search?apikey=MWtBxp2J0vWMapPa9OKaNck8mxGWosii&q=${location}`)
     let weather = await axios.get(`https://dataservice.accuweather.com/forecasts/v1/daily/5day/${data[0]['Key']}?apikey=MWtBxp2J0vWMapPa9OKaNck8mxGWosii`)
-    console.log('weather.data.DailyForecasts',weather.data.DailyForecasts);
     storageService.post(`${location}WeatherOfTheWeek`, weather.data.DailyForecasts)
     return weather.data.DailyForecasts || [];
 }

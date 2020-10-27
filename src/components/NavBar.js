@@ -43,8 +43,8 @@ export default function NavBar() {
         <div className="nav-bar flex align-center ">
             <div className="link-wrapper flex align-center space-between">
                 <div>
-                    <NavLink activeClassName="selected" to="/" exact >Home</NavLink>
-                    <NavLink activeClassName="selected" to="/favorites" exact > Favorites</NavLink>
+                    <NavLink activeClassName="selected" to="/Coral-Solomon-22-10-2020" exact >Home</NavLink>
+                    <NavLink activeClassName="selected" to="/Coral-Solomon-22-10-2020/favorites" exact > Favorites</NavLink>
 
                 </div>
 
