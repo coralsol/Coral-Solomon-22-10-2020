@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Coral-Solomon-22-10-2020/static/css/main.44520584.chunk.css",
-    "main.js": "/Coral-Solomon-22-10-2020/static/js/main.77329253.chunk.js",
-    "main.js.map": "/Coral-Solomon-22-10-2020/static/js/main.77329253.chunk.js.map",
+    "main.js": "/Coral-Solomon-22-10-2020/static/js/main.ae1c1015.chunk.js",
+    "main.js.map": "/Coral-Solomon-22-10-2020/static/js/main.ae1c1015.chunk.js.map",
     "runtime-main.js": "/Coral-Solomon-22-10-2020/static/js/runtime-main.06afeff5.js",
     "runtime-main.js.map": "/Coral-Solomon-22-10-2020/static/js/runtime-main.06afeff5.js.map",
     "static/js/2.6fbc056e.chunk.js": "/Coral-Solomon-22-10-2020/static/js/2.6fbc056e.chunk.js",
     "static/js/2.6fbc056e.chunk.js.map": "/Coral-Solomon-22-10-2020/static/js/2.6fbc056e.chunk.js.map",
     "index.html": "/Coral-Solomon-22-10-2020/index.html",
-    "precache-manifest.263384a6fc7a3b5b77e91d3ac9e41cf4.js": "/Coral-Solomon-22-10-2020/precache-manifest.263384a6fc7a3b5b77e91d3ac9e41cf4.js",
+    "precache-manifest.21762c3651c1c414f9f503d064281911.js": "/Coral-Solomon-22-10-2020/precache-manifest.21762c3651c1c414f9f503d064281911.js",
     "service-worker.js": "/Coral-Solomon-22-10-2020/service-worker.js",
     "static/css/main.44520584.chunk.css.map": "/Coral-Solomon-22-10-2020/static/css/main.44520584.chunk.css.map",
     "static/js/2.6fbc056e.chunk.js.LICENSE.txt": "/Coral-Solomon-22-10-2020/static/js/2.6fbc056e.chunk.js.LICENSE.txt",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.06afeff5.js",
     "static/js/2.6fbc056e.chunk.js",
     "static/css/main.44520584.chunk.css",
-    "static/js/main.77329253.chunk.js"
+    "static/js/main.ae1c1015.chunk.js"
   ]
 }
