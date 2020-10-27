@@ -15,8 +15,8 @@ function App() {
       <WeatherContextProvider>
         <NavBar></NavBar>
         <Switch>
-          <Route path="/favorites" component={Favorites} exact></Route>
-          <Route path="/" component={Home} exact></Route>
+          <Route path="/Coral-Solomon-22-10-2020/favorites" component={Favorites} exact></Route>
+          <Route path="/Coral-Solomon-22-10-2020" component={Home} exact></Route>
 
         </Switch>
       </WeatherContextProvider>

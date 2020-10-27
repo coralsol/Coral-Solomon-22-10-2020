@@ -23,7 +23,7 @@ export default function Favorites() {
     function handleFavorite(favorite) {
         let forecast = favorite.data;
         let name= favorite.name
-        history.push("/")
+        history.push("/Coral-Solomon-22-10-2020")
         dispatch({ type: 'SET_WEATHEROFTHEWEEK', forecast })
         dispatch({ type: 'SET_NAME', name })
 
