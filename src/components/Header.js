@@ -40,9 +40,6 @@ export default function Header({ curWeather, goSearch }) {
 
     async function onAddFavorite() {
         setFavorite(!favorite)
-        console.log('searchValue',searchValue);
-        console.log('name',name);
-
         let favoriteCity = { name: name, data: curWeather }
         let currentCity = await storageService.get(`favorites`, name)
         if (currentCity) {
